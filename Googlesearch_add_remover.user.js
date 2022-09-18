@@ -11,7 +11,7 @@
 
 (function() {
     'use strict';
-     var badElements = [ "#tads" ]
+     var badElements = [ "#tads", "#bottomads"]
      function removeIfExists (selector) {
      var x = document.querySelector(selector)
      if (x) x.remove()
